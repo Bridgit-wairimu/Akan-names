@@ -1,0 +1,45 @@
+body{
+    background-image: url("../images/img\ one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{ 
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+}
+h2,h3{
+    font-size:large;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+
+}
+form{
+    background-color: rgb(255, 222, 255);
+    background-size: contain;
+    border-radius: 20px;
+    padding: 10px;
+}
+input[type=number] {
+    width: 80%;
+    padding-bottom: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input[type=submit] {
+    background-color: blue;
+    color : white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color:black;
+}
+
+
