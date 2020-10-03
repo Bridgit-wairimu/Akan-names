@@ -20,6 +20,7 @@ h2,h3{
 }
 form{
     background-color: rgb(255, 222, 255);
+    opacity: 2.5;
     background-size: contain;
     border-radius: 20px;
     padding: 10px;
@@ -41,5 +42,15 @@ input[type=submit] {
 input[type=submit]:hover{
     background-color:black;
 }
-
-
+.text{
+    text-align: center;
+    background-size: 2em;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: skyblue;
+    width: 500px;
+}
