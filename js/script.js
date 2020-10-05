@@ -11,7 +11,7 @@ function getAkanNames(){
   } 
   if (dateOfBirth >= new Date()){
   console.log(myBirthDay,new Date());
-  document.getElementById("message").innerHTML="<span> Cannot assign to unborns </span>";
+  document.getElementById("message").innerHTML="<span> Cannot assign to chidren who are not born </span>";
     }
    else {
       for(var i=0; i<myGender.length; i++) {
