@@ -48,7 +48,7 @@ button[type= submit] {
 button[type=submit]:hover{
     background-color:black;
 }
-.paragraph{
+.text{
     border-radius: 10px;
     box-sizing: content-box;
     background-color: skyblue;
