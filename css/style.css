@@ -34,18 +34,18 @@ input[type=number] {
     border: 2px solid black;
     border-radius: 5px;
 }
-button[type= submit] {
+button[type= button] {
     background-color: blueviolet;
     color : white;
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
     width: 150px;
-    height: 30px;
+    height: 40px;
     font-weight: bolder;
     text-align: center;
 }
-button[type=submit]:hover{
+button[type=button]:hover{
     background-color:black;
 }
 .text{
