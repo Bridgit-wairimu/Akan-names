@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/img\ one.jpg");
+    background-image: url("../images/accra__ghana.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -8,7 +8,7 @@ h1{
     text-align: center;
     font-weight: bolder;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: inherit;
 }
 h2,h3{
@@ -20,10 +20,12 @@ h2,h3{
 }
 form{
     background-color: rgb(255, 222, 255);
-    opacity: 2.5;
     background-size: contain;
     border-radius: 20px;
     padding: 10px;
+    height: 200px;
+    width: 700px;
+  
 }
 input[type=number] {
     width: 80%;
@@ -32,25 +34,31 @@ input[type=number] {
     border: 2px solid black;
     border-radius: 5px;
 }
-input[type=submit] {
-    background-color: blue;
+button[type= submit] {
+    background-color: blueviolet;
     color : white;
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
+    width: 150px;
+    height: 30px;
+    font-weight: bolder;
+    text-align: center;
 }
-input[type=submit]:hover{
+button[type=submit]:hover{
     background-color:black;
 }
-.text{
-    text-align: center;
-    background-size: 2em;
+.paragraph{
+    border-radius: 10px;
+    box-sizing: content-box;
+    background-color: skyblue;
+    font-weight: bolder;
     font-size: large;
-    font-weight: bold;
-    box-sizing: border-box;
     padding: 5px;
     margin: 10px;
-    border-radius: 10px;
-    background-color: skyblue;
+    color: black;
     width: 500px;
+    height: 150px;
+    text-align: center;
+    
 }
