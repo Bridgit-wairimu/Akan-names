@@ -1,4 +1,4 @@
-function getAkanName(){
+function getAkanName (){
   var days=["Sunday","Monday","Tuesday","Wednesday","Friday","Saturday"];
   var maleAkanNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var femaleAkanNames=["Akoswa","Adwoa","Abena","Akau","Yaa","Afua","Ama"];
@@ -14,14 +14,14 @@ function getAkanName(){
   document.getElementById("message").innerHTML="<span> Cannot assign to chidren who are not born </span>";
     }
    else {
-      for(var i=0;i<myGender.length; i++) {
+      for(var i=0;i<myGender.length; i ++) {
     if (myGender [i].checked) {
     if (myGender [i].value=== "male"){
-      document.getElementById("message").innerHTML= "Born on a <span>" + days[dayOfTheWeek] +" </span>,Your akan name <span>" + maleAkanNames [dayOfTheWeek] + "</span>";
+      document.getElementById("message").innerHTML= "You were born on a <span>" + days[dayOfTheWeek] +" </span>,Your akan name is <span>" + maleAkanNames [dayOfTheWeek] + "</span>";
 
     } 
     else {
-      document.getElementById("message").innerHTML= "Born on a <span>" + days[dayOfTheWeek] +" </span>,Your akan name<span>" + femaleAkanNames [dayOfTheWeek] + "</span>";
+      document.getElementById("message").innerHTML= "You were born on a <span>" + days[dayOfTheWeek] +" </span>,Your akan name is <span>" + femaleAkanNames [dayOfTheWeek] + "</span>";
 
     } 
     break; 
