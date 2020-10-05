@@ -13,23 +13,23 @@
 
 # BDD 
 ## inputs
-### . mm - the month in which the user was born
-### .dd- the date in which the user was born
-### .yy- the year in which the user was born
+#### . mm - the month in which the user was born
+#### .dd- the date in which the user was born
+#### .yy- the year in which the user was born
 ## outputs
-### .get Akan name - the corresponding akan name e.g "yaw","Abena" etc
+#### .get Akan name - the corresponding akan name e.g "yaw","Abena" etc
 
 # Technology used
-### 1.Html5
-### 2.css
-### 3.javascript
-### 4. markdown
+#### 1.Html5
+#### 2.css
+#### 3.javascript
+#### 4. markdown
 
 # live link
-### https://bridgit-wairimu.github.io/Akan-names/
+#### https://bridgit-wairimu.github.io/Akan-names/
 
 # License
-### MIT LICENSE
+#### MIT LICENSE
 
 # Copyright
-### copyright (c) 2020
+#### copyright (c) 2020
