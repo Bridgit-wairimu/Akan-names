@@ -23,7 +23,7 @@ form{
     background-size: contain;
     border-radius: 20px;
     padding: 10px;
-    height: 200px;
+    height: 300px;
     width: 600px;
   
 }
@@ -53,7 +53,7 @@ button[type=button]:hover{
     box-sizing: content-box;
     background-color: skyblue;
     font-weight: bolder;
-    font-size: large;
+    font-size: small;
     padding: 5px;
     margin: 10px;
     color: black;

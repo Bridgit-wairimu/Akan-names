@@ -1,4 +1,4 @@
-function getAkanNames(){
+function getAkanName(){
   var days=["Sunday","Monday","Tuesday","Wednesday","Friday","Saturday"];
   var maleAkanNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var femaleAkanNames=["Akoswa","Adwoa","Abena","Akau","Yaa","Afua","Ama"];
@@ -7,7 +7,7 @@ function getAkanNames(){
   var dateOfBirth = new Date(myBirthDay);
   var dayOfTheWeek = dateOfBirth.getDay();
   if (myBirthDay ==="") {
-    getElementById("message").innerHTML="<span> Please give a valid value </span>";
+   document.getElementById("message").innerHTML="<span> Please give a valid value </span>";
   } 
   if (dateOfBirth >= new Date()){
   console.log(myBirthDay,new Date());
@@ -26,7 +26,7 @@ function getAkanNames(){
     } 
     break; 
   } else {
-    getElementById("message").innerHTML="<div> please select a gender</div>";
+    document.getElementById("message").innerHTML="<div> please select a gender</div>";
   }
       }
     }
