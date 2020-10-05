@@ -7,7 +7,7 @@ function getAkanNames(){
   var dateOfBirth = new Date(myBirthDay);
   var dayOfTheWeek = dateOfBirth.getDay();
   if (myBirthDay ==="") {
-    getElementById("message").innerHTML="<span> You did not submit a valid date </span>";
+    getElementById("message").innerHTML="<span> Please give a valid value </span>";
   } 
   if (dateOfBirth >= new Date()){
   console.log(myBirthDay,new Date());
