@@ -9,7 +9,7 @@
 
 ### . cd Akan-Names
 
-### Then code in atom or based on the text editor you have.
+### Then code in atom or any code text editor you prefer.
 
 # BDD 
 ## inputs
