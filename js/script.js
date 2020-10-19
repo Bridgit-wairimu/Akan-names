@@ -6,9 +6,11 @@ function getAkanName (){
   var myGender = document.getElementsByName("gender");
   var dateOfBirth = new Date(myBirthDay);
   var dayOfTheWeek = dateOfBirth.getDay();
+
   if (myBirthDay ==="") {
    document.getElementById("message").innerHTML="<span> Please give a valid value </span>";
   } 
+
   if (dateOfBirth >= new Date()){
   console.log(myBirthDay,new Date());
   document.getElementById("message").innerHTML="<span> Cannot assign to chidren who are not born </span>";
@@ -32,5 +34,5 @@ function getAkanName (){
     }
   }
 
-prompt("please provide a date for you birthday")
+prompt("please provide a date for your birthday")
 
