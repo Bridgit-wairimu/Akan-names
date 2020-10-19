@@ -32,5 +32,5 @@ function getAkanName (){
     }
   }
 
-
+alert("please provide a date")
 
